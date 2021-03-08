@@ -52,17 +52,19 @@ h1 {
   font-weight: bold;
 }
 
-legend {
+.offer {
+  display: block;
+  text-decoration: none;
   text-align: center;
   padding: 20px;
   color: #fff;
   background-color: #5d54a3;
   border-radius: 12px;
   margin-bottom: 25px;
-  box-shadow: 0px 4px 8px rgb(37, 37, 37);
+  box-shadow: 0px 6px 0px rgba(75, 47, 47, 0.4);
 }
 
-legend span {
+.offer span {
   font-weight: bold;
 }
 
@@ -72,7 +74,7 @@ fieldset {
   width: 100%;
   border-radius: 12px;
   padding: 40px;
-  box-shadow: 0px 4px 8px rgb(37, 37, 37);
+  box-shadow: 0px 6px 0px rgba(37, 37, 37, 0.4);
 }
 
 input {
@@ -112,7 +114,8 @@ big {
   font-size: 14px;
 }
 
-big span {
+big .tnc {
+  text-decoration: none;
   color: red;
   font-weight: bold;
 }
