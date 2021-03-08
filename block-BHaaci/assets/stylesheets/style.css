@@ -1,0 +1,121 @@
+/*Custom Styles*/
+
+/*Global Styles*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1400px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*Main*/
+
+.main {
+  background: url(../media/bg-intro-desktop.png),
+    linear-gradient(rgba(239, 118, 119, 1), rgba(239, 118, 119, 1));
+  background-size: 100% 100%;
+}
+
+article {
+  width: 40%;
+  color: #fff;
+}
+
+article p {
+  line-height: 1.5;
+}
+
+form {
+  width: 40%;
+}
+
+h1 {
+  font-size: 56px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.offer {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  background-color: #5d54a3;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 0px 6px 0px rgba(75, 47, 47, 0.4);
+}
+
+.offer span {
+  font-weight: bold;
+}
+
+fieldset {
+  text-align: center;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0px 6px 0px rgba(37, 37, 37, 0.4);
+}
+
+input {
+  width: 100%;
+  padding: 20px 20px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  border: 2px solid rgb(146, 146, 146);
+  font-size: 18px;
+}
+
+input:focus {
+  outline: none !important;
+  border: 2px solid #5d54a3;
+}
+
+input::placeholder {
+  font-size: 18px;
+}
+
+button {
+  width: 100%;
+  border-radius: 6px;
+  text-transform: uppercase;
+  padding: 15px;
+  text-align: center;
+  background-color: #66cd8a;
+  margin-bottom: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  border: 1px solid rgb(146, 146, 146);
+}
+
+big {
+  color: rgb(146, 146, 146);
+  font-size: 14px;
+}
+
+big .tnc {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms | Assignment 1</title>
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="assets/stylesheets/resets.css" />
+    <link rel="stylesheet" href="assets/stylesheets/style.css" />
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <div class="container flex">
+        <article>
+          <h1>Learn to code by watching others</h1>
+          <p>
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </article>
+        <form action="index.html" method="POST">
+          <a class="offer" href="#">
+            <span>Tty it free for 7 days</span> then $20/mo. therefter
+          </a>
+          <fieldset>
+            <input type="text" name="first-name" placeholder="First Name" />
+            <input type="text" name="last-name" placeholder="Last Name" />
+            <input type="email" name="email" placeholder="Email Address" />
+            <input type="password" name="password" placeholder="Password" />
+            <button name="submit">claim your free trial</button>
+            <big
+              >By clicking the button you are agreeing our
+              <a class="tnc" href="#">Terms and Conditions</a>
+            </big>
+          </fieldset>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
